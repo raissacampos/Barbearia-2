@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.primario{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+   align-items: center;
+   margin-top: 7px;
+}
+
+.menu ul li {
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.vector{
+    margin-right: 136px;
+}
+
+.banner01{
+    background-color: #092C52;
+    color: white;
+    height: 708px;
+    top: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.banner01-col-esquerda{
+    padding-left: 135px;
+}
+
+.banner01-titulo{
+   font-size: 34px;
+}
+
+.banner01-paragrafo{
+    font-size: 16px;
+    color: white;
+    margin: 80px 0;
+}
+
+.botao1{
+    color: white;
+    background-color: #F99420;
+    border: solid 15px #F99420;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.banner01-col-direita{
+    margin-right: 135px;
+}
+
+.banner02{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.banner02-col-esquerda{
+    padding-left:235px ;
+}
+
+.banner02-col-direita{
+    padding-right: 235px;
+}
+.linha{
+    height: 2px;
+    width: 56px;
+    border: 0;
+    background-color: #092C52;
+    margin: 0 0px 0 0;
+}
+
+.banner02-subtitulo{
+    font-size: 21px;
+    color: #092C52;
+    margin-top: 15px;
+}
+
+.banner02-titulo{
+    font-size: 34px;
+    color: #092C52;
+    margin-top: 10px;
+}
+
+.banner02-paragrafo{
+    font-size: 16px;
+    color: #838383;
+    margin-top: 25px;
+}
+
+.banner03{
+    background-color: #092C52;
+    align-items: center;
+    text-align: center;
+    margin-top: 102px;
+    height: 370px;
+}
+
+.aspas{
+    margin-top: 102.5px;
+}
+
+.banner03-titulo{
+    color: #F99420;
+    font-size: 26px;
+    margin-top: 21pxpx ;    
+}
+
+.banner03-nome{
+    color:#FFFFFF;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.banner04{
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.divisoria{
+    height: 2px;
+    width: 56px;
+    border: 3px;
+    background-color: #092C52;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.banner04-subtitulo{
+    font-size: 21px;
+    color: #092C52;
+    margin-top: 15px;
+}
+
+.banner04-titulo{
+    font-size: 34px;
+    color: #092C52;
+    margin-top: 15px;
+}
+
+.fotos{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.fotos-titulo{
+    font-size: 26px;
+    color: #092C52;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.foto-subtitulo{
+    font-size: 16px;
+    color: #838383;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.preços{
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 90px;
+}
+
+.banner05{
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.cabelos{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.seta01{
+    margin-top: -145px;
+}
+
+.seta02{
+    margin-top: -145px;
+}
+
+.banner06{
+    background-color: #092C52;
+    height: 370px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.banner06-titulo{
+    color: #F99420;
+    margin-left: 335px;
+}
+
+.botao06{
+    border: 20px solid #F99420;
+    background-color: #F99420;
+    color: white;
+    text-decoration: none;
+    margin-right: 335px;
+    font-size: 21px;
+}
+
+.banner07{
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo{
+    color: #092C52;
+    font-size: 34px;
+    margin-top: 21px;
+}
+
+.banner07-paragrafo{
+    font-size: 16px;
+    color: #838383;
+    margin-top: 60px;
+}
+
+.barbeiros{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top:60px ;
+    margin-right: 135px;
+    margin-left: 135px;
+}
+
+.Barbeiros{
+    font-size: 26px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner08{
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario01{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+}
+
+.nome input{
+    border: 10px solid #C4C4C4;
+    background-color: #C4C4C4;
+    width: 418px;
+    margin-top: 15px;
+}
+
+.nome label{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.formulario2 input{
+    background-color: #C4C4C4;
+    width: 413px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+}
+
+.formulario2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
