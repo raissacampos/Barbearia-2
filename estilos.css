@@ -290,9 +290,16 @@ body{
     font-weight: 700;
 }
 
+
+.formulario2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
 .formulario2 input{
     background-color: #C4C4C4;
-    width: 413px;
+    width: 430px;
     height: 40px;
     margin-top: 15px;
     border: none;
@@ -302,4 +309,75 @@ body{
     justify-content: space-between;
     display: flex;
     align-items: center;
+}
+
+
+.data{
+    margin-top: 30px;
+    font-weight: 700px;
+    font-size: 16px;
+    color: black;
+}
+
+select {
+    background-color: #C4C4C4;
+    width: 418px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+}
+
+.botao3 a{
+    border: #F99420 solid 15px;
+    background-color: #F99420;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 580px;
+    margin-right: 580px;
+    margin-top: 30px;
+}
+
+.contato{
+    margin-top: 90px;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+.end{
+    margin-left: 638px;
+    margin-right: 638px;
+    margin-top: 112px;
+}
+
+.redes{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 35px;
+}
+
+.facebook{
+    margin-left: 643px;
+}
+
+.youtube{
+    margin-right: 643px;
+}
+
+.barra{
+    height: 60px;
+    background-color: #C4C4C4;
+    color: black;
+    text-align: center;
+}
+
+.barra-titulo {
+    padding-top: 21px;
+    text-align: center;
+    font-size: 16px;
 }
